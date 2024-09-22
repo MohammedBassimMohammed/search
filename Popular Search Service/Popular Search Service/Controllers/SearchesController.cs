@@ -17,24 +17,7 @@ namespace Popular_Search_Service.Controllers
         }
 
         [HttpGet]
-        public IActionResult getallemployess()
-        {
-            return Ok(dbcontext.Searches.ToList());
-        }
-
-        [HttpPost]
-        public IActionResult AddSearcheDto(AddSearcheDto AddSearcheDto)
-        {
-            var SearchesEntity = new Searche()
-            {
-                User_Selection = AddSearcheDto.User_Selection,
-                Movie_Id = AddSearcheDto.Movie_Id
-            };
-
-            dbcontext.Searches.Add(SearchesEntity);
-            dbcontext.SaveChanges();
-            return Ok(SearchesEntity);
-        }
+        public IActionResult getallemployess() => Ok(dbcontext.Searches.ToList());
     }
     }
 

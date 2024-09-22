@@ -76,7 +76,6 @@ namespace Popular_Search_Service.Controllers
             dbcontext.SaveChanges();
             return Ok(movieEntity);
 
-
         }
     }
 }

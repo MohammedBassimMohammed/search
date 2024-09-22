@@ -97,21 +97,5 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Popular_Search_Service.Controllers.SearchesController",
-    "Method": "AddSearcheDto",
-    "RelativePath": "api/Searches",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "AddSearcheDto",
-        "Type": "Popular_Search_Service.Models.Dto.AddSearcheDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   }
 ]
