@@ -36,24 +36,10 @@ namespace Popular_Search_Service.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Name")
+                        .IsUnique();
+
                     b.ToTable("Movies");
-                });
-
-            modelBuilder.Entity("Popular_Search_Service.Models.Entities.Popular_Searche", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Movie_Name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Popular_Searches");
                 });
 
             modelBuilder.Entity("Popular_Search_Service.Models.Entities.Searche", b =>
@@ -63,13 +49,6 @@ namespace Popular_Search_Service.Migrations
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Keyword")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("Movie_Id")
-                        .HasColumnType("integer");
 
                     b.Property<DateTime>("Search_Time")
                         .HasColumnType("timestamp with time zone");

@@ -79,16 +79,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Popular_Search_Service.Controllers.Popular_SearchesController",
-    "Method": "getallemployess",
-    "RelativePath": "api/Popular_Searches",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Popular_Search_Service.Controllers.SearchesController",
     "Method": "getallemployess",
     "RelativePath": "api/Searches",

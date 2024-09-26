@@ -103,3 +103,5 @@ C:\Users\Basi\muhammbasi-1\Popular Search Service\Popular Search Service\obj\Deb
 C:\Users\Basi\muhammbasi-1\Popular Search Service\Popular Search Service\obj\Debug\net8.0\Popular Search Service.pdb
 C:\Users\Basi\muhammbasi-1\Popular Search Service\Popular Search Service\obj\Debug\net8.0\Popular Search Service.genruntimeconfig.cache
 C:\Users\Basi\muhammbasi-1\Popular Search Service\Popular Search Service\obj\Debug\net8.0\ref\Popular Search Service.dll
+C:\Users\Basi\muhammbasi-1\Popular Search Service\Popular Search Service\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Basi\muhammbasi-1\Popular Search Service\Popular Search Service\bin\Debug\net8.0\StackExchange.Redis.dll

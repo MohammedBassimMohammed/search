@@ -17,6 +17,6 @@ namespace Popular_Search_Service.Data
 
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Searche> Searches { get; set; }
-        public DbSet<Popular_Searche> Popular_Searches { get; set;}
+        //public DbSet<Popular_Searche> Popular_Searches { get; set;}
     }
 }

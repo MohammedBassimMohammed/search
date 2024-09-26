@@ -6,7 +6,9 @@ using Popular_Search_Service.Data;
 using Popular_Search_Service.Models.Dto;
 using Popular_Search_Service.Models.Entities;
 using System;
+using System.Data;
 using System.Xml.Linq;
+
 
 namespace Popular_Search_Service.Controllers
 {
@@ -69,10 +71,15 @@ namespace Popular_Search_Service.Controllers
         {
             var movieEntity = new Movie()
             {
+                
                 Name = AddMovieDto.Name
             };
-
             dbcontext.Movies.Add(movieEntity);
+           //if (dbcontext.Movies.Contains(movieEntity) )
+           // {
+           //     return BadRequest();
+           // }
+
             dbcontext.SaveChanges();
             return Ok(movieEntity);
 
