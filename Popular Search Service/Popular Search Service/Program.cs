@@ -6,7 +6,7 @@ using Popular_Search_Service.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddHostedService<PopularMoviesBackgroundJob>();    
+builder.Services.AddHostedService<OldSearchesBackgroundJob>();    
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

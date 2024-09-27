@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BF6B71EB-5B3D-4786-9482-D3A49D47B6C3}|Popular Search Service\\Popular Search Service.csproj|c:\\users\\basi\\muhammbasi-1\\popular search service\\popular search service\\backgroundjobs\\oldsearchesbackgroundjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6B71EB-5B3D-4786-9482-D3A49D47B6C3}|Popular Search Service\\Popular Search Service.csproj|solutionrelative:popular search service\\backgroundjobs\\oldsearchesbackgroundjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF6B71EB-5B3D-4786-9482-D3A49D47B6C3}|Popular Search Service\\Popular Search Service.csproj|c:\\users\\basi\\muhammbasi-1\\popular search service\\popular search service\\backgroundjobs\\popularmoviesbackgroundjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF6B71EB-5B3D-4786-9482-D3A49D47B6C3}|Popular Search Service\\Popular Search Service.csproj|solutionrelative:popular search service\\backgroundjobs\\popularmoviesbackgroundjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF6B71EB-5B3D-4786-9482-D3A49D47B6C3}|Popular Search Service\\Popular Search Service.csproj|c:\\users\\basi\\muhammbasi-1\\popular search service\\popular search service\\models\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6B71EB-5B3D-4786-9482-D3A49D47B6C3}|Popular Search Service\\Popular Search Service.csproj|solutionrelative:popular search service\\models\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF6B71EB-5B3D-4786-9482-D3A49D47B6C3}|Popular Search Service\\Popular Search Service.csproj|c:\\users\\basi\\muhammbasi-1\\popular search service\\popular search service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6B71EB-5B3D-4786-9482-D3A49D47B6C3}|Popular Search Service\\Popular Search Service.csproj|solutionrelative:popular search service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF6B71EB-5B3D-4786-9482-D3A49D47B6C3}|Popular Search Service\\Popular Search Service.csproj|c:\\users\\basi\\muhammbasi-1\\popular search service\\popular search service\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6B71EB-5B3D-4786-9482-D3A49D47B6C3}|Popular Search Service\\Popular Search Service.csproj|solutionrelative:popular search service\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF6B71EB-5B3D-4786-9482-D3A49D47B6C3}|Popular Search Service\\Popular Search Service.csproj|c:\\users\\basi\\muhammbasi-1\\popular search service\\popular search service\\models\\entities\\searche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6B71EB-5B3D-4786-9482-D3A49D47B6C3}|Popular Search Service\\Popular Search Service.csproj|solutionrelative:popular search service\\models\\entities\\searche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PopularMoviesBackgroundJob.cs",
-              "DocumentMoniker": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\BackgroundJobs\\PopularMoviesBackgroundJob.cs",
-              "RelativeDocumentMoniker": "Popular Search Service\\BackgroundJobs\\PopularMoviesBackgroundJob.cs",
-              "ToolTip": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\BackgroundJobs\\PopularMoviesBackgroundJob.cs",
-              "RelativeToolTip": "Popular Search Service\\BackgroundJobs\\PopularMoviesBackgroundJob.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Title": "OldSearchesBackgroundJob.cs",
+              "DocumentMoniker": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\BackgroundJobs\\OldSearchesBackgroundJob.cs",
+              "RelativeDocumentMoniker": "Popular Search Service\\BackgroundJobs\\OldSearchesBackgroundJob.cs",
+              "ToolTip": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\BackgroundJobs\\OldSearchesBackgroundJob.cs",
+              "RelativeToolTip": "Popular Search Service\\BackgroundJobs\\OldSearchesBackgroundJob.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T22:58:58.184Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-09-27T12:52:33.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\Models\\Entities\\Movie.cs",
-              "RelativeDocumentMoniker": "Popular Search Service\\Models\\Entities\\Movie.cs",
-              "ToolTip": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\Models\\Entities\\Movie.cs",
-              "RelativeToolTip": "Popular Search Service\\Models\\Entities\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Searche.cs",
+              "DocumentMoniker": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\Models\\Entities\\Searche.cs",
+              "RelativeDocumentMoniker": "Popular Search Service\\Models\\Entities\\Searche.cs",
+              "ToolTip": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\Models\\Entities\\Searche.cs",
+              "RelativeToolTip": "Popular Search Service\\Models\\Entities\\Searche.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T23:08:47.108Z",
+              "WhenOpened": "2024-09-27T12:42:59.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\Controllers\\MoviesController.cs",
-              "RelativeDocumentMoniker": "Popular Search Service\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\Controllers\\MoviesController.cs",
-              "RelativeToolTip": "Popular Search Service\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAEQAAAASAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\Program.cs",
+              "RelativeDocumentMoniker": "Popular Search Service\\Program.cs",
+              "ToolTip": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\Program.cs",
+              "RelativeToolTip": "Popular Search Service\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T15:00:41.323Z",
+              "WhenOpened": "2024-09-27T08:37:38.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PopularMoviesBackgroundJob.cs",
+              "DocumentMoniker": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\BackgroundJobs\\PopularMoviesBackgroundJob.cs",
+              "RelativeDocumentMoniker": "Popular Search Service\\BackgroundJobs\\PopularMoviesBackgroundJob.cs",
+              "ToolTip": "C:\\Users\\Basi\\muhammbasi-1\\Popular Search Service\\Popular Search Service\\BackgroundJobs\\PopularMoviesBackgroundJob.cs",
+              "RelativeToolTip": "Popular Search Service\\BackgroundJobs\\PopularMoviesBackgroundJob.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:58:58.184Z",
               "EditorCaption": ""
             }
           ]

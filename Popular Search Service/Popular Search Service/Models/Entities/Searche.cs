@@ -9,7 +9,7 @@ namespace Popular_Search_Service.Models.Entities
     public class Searche
     {
         public int Id { get; set; }
-        public DateTime Search_Time { get; set; } = DateTime.Now.AddHours(3).ToUniversalTime();
+        public DateTime Search_Time { get; set; } = DateTime.Now.ToUniversalTime();
       //  [Key]
         public string User_Selection { get; set; }
      //   [ForeignKey("Movie_Name")]

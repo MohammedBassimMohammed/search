@@ -6,10 +6,10 @@
 //{
 //    public class PopularMoviesBackgroundJob : BackgroundService
 //    {
-//        private readonly ApplicationDbContext _dbcontext;
-//        public PopularMoviesBackgroundJob(ApplicationDbContext dbcontext)
+//        private readonly IServiceProvider _serviceProvider;
+//        public PopularMoviesBackgroundJob(IServiceProvider serviceProvider)
 //        {
-//            _dbcontext = dbcontext;
+//            _serviceProvider = serviceProvider;
 //        }
 //        protected async override Task ExecuteAsync(CancellationToken stoppingToken)
 //        {
@@ -17,11 +17,15 @@
 //            {
 //                while (!stoppingToken.IsCancellationRequested)
 //                {
-//                    var checktimetodelet = _dbcontext.Searches.Where(d => d.Search_Time < DateTime.Now.AddHours(3).AddDays(-30)).ToList();
-//                    //Console.WriteLine("BackgroundService is running !!!");
-//                    await Task.Delay(TimeSpan.FromSeconds(2), stoppingToken);
-//                    _dbcontext.Searches.RemoveRange(checktimetodelet);
-//                    _dbcontext.SaveChanges();
+//                    using (var scope = _serviceProvider.CreateScope())
+//                    {
+//                        var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+//                        var checktimetodelet = dbContext.Searches.Where(d => d.Search_Time < DateTime.Now.AddMinutes(-1).ToUniversalTime()).ToList();
+//                        //Console.WriteLine("BackgroundService is running !!!");
+//                        await Task.Delay(TimeSpan.FromSeconds(2), stoppingToken);
+//                        dbContext.Searches.RemoveRange(checktimetodelet);
+//                        await dbContext.SaveChangesAsync();
+//                    }
 //                }
 //            }
 //            catch (OperationCanceledException)
