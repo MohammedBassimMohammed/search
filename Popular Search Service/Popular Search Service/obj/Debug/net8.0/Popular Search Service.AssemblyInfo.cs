@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Popular Search Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9709502d827d1a93efc66175718fdecb43a38820")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3f1ffde1016b71cbb7c44807c1a5090cf37450b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Popular Search Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Popular Search Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

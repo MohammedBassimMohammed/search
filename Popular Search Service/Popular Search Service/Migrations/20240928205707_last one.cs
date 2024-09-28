@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Popular_Search_Service.Migrations
 {
     /// <inheritdoc />
-    public partial class _123 : Migration
+    public partial class lastone : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -23,6 +23,19 @@ namespace Popular_Search_Service.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Movies", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "OldSearches",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Old_Searches = table.Column<string>(type: "text", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_OldSearches", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -51,6 +64,9 @@ namespace Popular_Search_Service.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Movies");
+
+            migrationBuilder.DropTable(
+                name: "OldSearches");
 
             migrationBuilder.DropTable(
                 name: "Searches");

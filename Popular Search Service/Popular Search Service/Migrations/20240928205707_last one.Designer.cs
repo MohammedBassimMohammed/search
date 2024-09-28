@@ -12,8 +12,8 @@ using Popular_Search_Service.Data;
 namespace Popular_Search_Service.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240924175301_123")]
-    partial class _123
+    [Migration("20240928205707_last one")]
+    partial class lastone
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,6 +43,23 @@ namespace Popular_Search_Service.Migrations
                         .IsUnique();
 
                     b.ToTable("Movies");
+                });
+
+            modelBuilder.Entity("Popular_Search_Service.Models.Entities.OldSearches", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Old_Searches")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("OldSearches");
                 });
 
             modelBuilder.Entity("Popular_Search_Service.Models.Entities.Searche", b =>

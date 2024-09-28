@@ -11,24 +11,8 @@
   },
   {
     "ContainingType": "Popular_Search_Service.Controllers.MoviesController",
-    "Method": "AddMovie",
-    "RelativePath": "api/Movies",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "AddMovieDto",
-        "Type": "Popular_Search_Service.Models.Dto.AddMovieDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Popular_Search_Service.Controllers.MoviesController",
     "Method": "updatemovieinfo",
-    "RelativePath": "api/Movies/{id}",
+    "RelativePath": "api/Movies",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -36,7 +20,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       },
       {
         "Name": "UpdateMovieDto",
@@ -49,7 +33,7 @@
   {
     "ContainingType": "Popular_Search_Service.Controllers.MoviesController",
     "Method": "deletemovie",
-    "RelativePath": "api/Movies/{id}",
+    "RelativePath": "api/Movies",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -57,6 +41,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Popular_Search_Service.Controllers.MoviesController",
+    "Method": "AddMovie",
+    "RelativePath": "api/Movies",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AddMovieDto",
+        "Type": "Popular_Search_Service.Models.Dto.AddMovieDto",
         "IsRequired": true
       }
     ],
@@ -79,9 +79,29 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Popular_Search_Service.Controllers.OldSearchesController",
+    "Method": "GetAlloldSearches",
+    "RelativePath": "api/OldSearches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Popular_Search_Service.Controllers.SearchesController",
-    "Method": "getallemployess",
+    "Method": "GetAllMovies",
     "RelativePath": "api/Searches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Popular_Search_Service.Controllers.SearchesController",
+    "Method": "GetMostSEARCHEMovies",
+    "RelativePath": "api/Searches/TOP 20 SEARCHES",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

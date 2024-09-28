@@ -10,10 +10,6 @@ namespace Popular_Search_Service.Models.Entities
     {
         public int Id { get; set; }
         public DateTime Search_Time { get; set; } = DateTime.Now.ToUniversalTime();
-      //  [Key]
         public string User_Selection { get; set; }
-     //   [ForeignKey("Movie_Name")]
-      //  public int Movie_Id { get; set; }
-     //   public ICollection<Popular_Searche>  popular_Searche { get; set; }
     }
 }
